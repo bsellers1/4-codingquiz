@@ -1,0 +1,114 @@
+* {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    margin-block: 30px;
+    background-color: black;
+    color: grey;
+    border: none;
+    border-radius: 10px;
+}
+
+.start-button:hover {
+    background-color: lightblue;
+}
+
+p {
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.reveal {
+    display: block;
+}
+
+.question-box {
+    background-color: lightgreen;
+    display: grid;
+    grid-row: auto;
+    color: white;
+    border: none;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px;
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: 20px;
+    
+}
+
+.question-box:hover {
+    background-color:lightblue;
+    transition: 0.3s;
+}
+
+.end-screen {
+    text-decoration: underline;
+    font-size: 200px;
+    color: black;
+}
+
+.countdown {
+    padding: 15px;
+    color: white;
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 85%;
+}
+
+.high-scores {
+    border-radius: 5px;
+    padding: 1px;
+    color: white;
+    background-color: lightgreen;
+}
+
+#high-scores{
+    border: 3px;
+}
+
+h2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 90px;
+}
+
+#initials {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#initials-button {
+    margin-left: 2%;
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+    background-color: lightgreen;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
